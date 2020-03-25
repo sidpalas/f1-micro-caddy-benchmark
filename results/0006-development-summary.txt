@@ -1,0 +1,39 @@
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: har-test-script.js
+
+    duration: -, iterations: -
+         vus: 1, max: 6
+
+    init [----------------------------------------------------------] starting
+    █ page_1 - https://test.devopsdirective.com/posts/2020/03/always-on-minikube/
+
+      ✓ http2 is used
+      ✓ status is 200
+      ✓ content is present
+
+    check_failure_rate.........: 0.00%   ✓ 0   ✗ 296
+    checks.....................: 100.00% ✓ 888 ✗ 0  
+    data_received..............: 141 MB  7.0 MB/s
+    data_sent..................: 494 kB  25 kB/s
+    group_duration.............: avg=203.27ms min=167.46ms med=190.32ms max=540.51ms p(90)=243.64ms p(95)=263.85ms
+    http_req_blocked...........: avg=83.34µs  min=157ns    med=459ns    max=160.82ms p(90)=877ns    p(95)=1.09µs  
+    http_req_connecting........: avg=20.18µs  min=0s       med=0s       max=12.81ms  p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=40.04ms  min=12.28ms  med=35.11ms  max=299.35ms p(90)=58.78ms  p(95)=74.82ms 
+    http_req_receiving.........: avg=1.65ms   min=53.41µs  med=229.2µs  max=102.87ms p(90)=2.88ms   p(95)=9.88ms  
+    http_req_sending...........: avg=41.62µs  min=10.96µs  med=39.37µs  max=215.92µs p(90)=68.25µs  p(95)=85.32µs 
+    http_req_tls_handshaking...: avg=48.15µs  min=0s       med=0s       max=99.25ms  p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=38.34ms  min=12.13ms  med=34.1ms   max=299.18ms p(90)=56.02ms  p(95)=68.47ms 
+    http_reqs..................: 3561    178.048962/s
+    iteration_duration.........: avg=203.33ms min=167.53ms med=190.39ms max=540.59ms p(90)=243.69ms p(95)=263.9ms 
+    iterations.................: 292     14.599915/s
+    vus........................: 5       min=1 max=5
+    vus_max....................: 6       min=6 max=6
+
