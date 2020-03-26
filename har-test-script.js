@@ -12,7 +12,7 @@ var failureRate = new Rate("check_failure_rate");
 export let options = {
 	maxRedirects: 0,
 	stages: [
-        { target: 1600, duration: "20s" }
+        { target: 1600, duration: "1m" }
     ]
 };
 
